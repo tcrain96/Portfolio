@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section>
+    <section id="about-section">
       <img src="" />
       <h2>Hi! My Name is Tristan.</h2>
       <p>

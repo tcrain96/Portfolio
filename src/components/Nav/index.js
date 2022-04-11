@@ -19,6 +19,7 @@ const Nav = () => {
       name: "resume",
     },
   ];
+
   return (
     <header>
       <nav>
