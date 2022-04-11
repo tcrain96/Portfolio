@@ -1,16 +1,22 @@
+/*Global Styles*/
 #main-container{
-display: flex;
 font-family:Arial, Helvetica, sans-serif;
 }
-
+:root{
+    --background-color:#161f30;
+    --white-color:white;
+    --light-blue-color:#7376f5;
+    --accent-color:#fb6b1c;
+}
+/* Navigation Styles*/
 nav{
     display: flex;
     flex-direction: column;
     position: fixed;
     justify-content: center;
-    width:300px;
-    background-color: #161f30;
-    height: 100%;
+    background-color: var(--background-color);
+    height: 100vh;
+    width: 15%;
     top:0;
     left:0;
     overflow-x: hidden;
@@ -21,16 +27,56 @@ nav span{
     font-size: 30px;
     align-self:flex-end;
     margin: 10px 50px 10px 0px;
-    color: white;
+    color: var(--white-color);
 }
 
 nav span:hover{
-    color: orange;
+    color: var(--accent-color);
     cursor: pointer;
 }
 
-#about-section{
-    margin-left: 450px;
-    margin-top: 150px;
-    margin-right: 200px;
+/*About Styles*/
+#about-section,
+#portfolio-section{
+    top: 0;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15%;
+    padding: 0px 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#about-buttons{
+    margin-top: 50px;
+}
+
+#about-section span{
+    background-color: var(--background-color);
+    color: var(--white-color);
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+#about-section span:hover{
+color: var(--accent-color);
+cursor: pointer;
+}
+
+#about-image{
+    border-radius: 50%;
+    width: 300px;
+    margin: 0 auto;
+}
+
+/*Project Styles*/
+.project{
+    margin: 20px 0px;
+    padding: 100px 0px;
+    background-color: var(--background-color);
+    color: var(--white-color);
 }

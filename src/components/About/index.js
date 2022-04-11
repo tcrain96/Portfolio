@@ -1,9 +1,10 @@
 import React from "react";
+import aboutPicture from "../../assets/about-picture.jpg";
 
 const About = () => {
   return (
     <section id="about-section">
-      <img src="" />
+      <img src={aboutPicture} alt="Tristan" id="about-image" />
       <h2>Hi! My Name is Tristan.</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -14,6 +15,10 @@ const About = () => {
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum.
       </p>
+      <div id="about-buttons">
+        <span>View Portfolio</span>
+        <span>Contact Me</span>
+      </div>
     </section>
   );
 };
