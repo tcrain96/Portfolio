@@ -1,7 +1,12 @@
 /*Global Styles*/
+body{
+    margin: 0px;
+}
 #main-container{
 font-family:Arial, Helvetica, sans-serif;
+background-color: grey;
 }
+
 :root{
     --background-color:#161f30;
     --white-color:white;
@@ -9,6 +14,7 @@ font-family:Arial, Helvetica, sans-serif;
     --accent-color:#fb6b1c;
 }
 /* Navigation Styles*/
+
 nav{
     display: flex;
     flex-direction: column;
@@ -44,10 +50,7 @@ nav span:hover{
     flex-direction: column;
     justify-content: center;
     margin-left: 15%;
-    padding: 0px 100px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
+    padding: 20px 250px;
 }
 
 #about-buttons{
@@ -76,7 +79,26 @@ cursor: pointer;
 /*Project Styles*/
 .project{
     margin: 20px 0px;
-    padding: 100px 0px;
+    padding: 75px 0px;
     background-color: var(--background-color);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     color: var(--white-color);
+    border-radius: 30px;
+}
+
+.project h2,
+.project p{
+    padding: 20px;
+    background-color: var(--light-blue-color);
+    max-width: 300px;
+}
+
+.project h2{
+    font-size: 30px;
+}
+
+.project p{
+    font-size: 20px;
 }
