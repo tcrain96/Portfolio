@@ -1,14 +1,39 @@
-import React from "react";
-import About from "./components/About";
+import React,{useState} from "react";
 import Nav from "./components/Nav";
-import Portfolio from "./components/Portfolio"
+import Portfolio from "./components/Portfolio";
+import About from "./components/About";
 
 function App() {
+  const [categories] = useState([
+    {
+      name: "About",
+    },
+    {
+      name: "Portfolio",
+    },
+    {
+      name: "Contact",
+    },
+    {
+      name: "Resume",
+    },
+  ]);
+
+  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+
   return (
     <div id="main-container">
-      <Nav></Nav>
+      <Nav
+        categories={categories}
+        setCurrentCategory={setCurrentCategory}
+        currentCategory={currentCategory}
+      ></Nav>
       <main>
-        <Portfolio></Portfolio>
+        {{"About":<About></About>,
+        "Portfolio":<Portfolio/>,
+        "Contact":<About/>,
+        "Resume":<About/>,
+      }[currentCategory.name]}
       </main>
     </div>
   );

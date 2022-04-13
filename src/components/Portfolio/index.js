@@ -4,6 +4,7 @@ import budgetTracker_BI from "../../assets/budget-tracker-BI.jpg";
 import devDen_BI from "../../assets/dev-den-BI.jpg";
 
 const Portfolio = () => {
+
   const projects = [
     {
       name: "Social Network API",
@@ -46,8 +47,6 @@ const Portfolio = () => {
       link: "https://tcrain96.github.io/Grumble_Project/",
     },
   ];
-
-
 
   return (
     <section id="portfolio-section">

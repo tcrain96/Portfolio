@@ -1,36 +1,44 @@
 import React from "react";
 
-function categorySelected(name) {
-  console.log(`${name} clicked`);
-}
-
-const Nav = () => {
-  const categories = [
-    {
-      name: "about",
-    },
-    {
-      name: "portfolio",
-    },
-    {
-      name: "contact",
-    },
-    {
-      name: "resume",
-    },
-  ];
+const Nav = (props) => {
+  const { categories = [], setCurrentCategory, currentCategory } = props;
 
   return (
     <header>
       <nav>
-        {categories.map((category) => (
-          <span
-            key={category.name}
-            onClick={() => categorySelected(category.name)}
-          >
-            {category.name}
-          </span>
-        ))}
+        <article id="home-logo">
+          <h2>TC</h2>
+        </article>
+
+        <article id="nav-categories">
+          {categories.map((category) => (
+            <div
+              className={`${
+                currentCategory.name === category.name && "navActive"
+              }`}
+              key={category.name}
+            >
+              <span
+                onClick={() => {
+                  setCurrentCategory(category);
+                }}
+              >
+                {category.name}
+              </span>
+            </div>
+          ))}
+        </article>
+
+        <article id="social-links">
+          <a href="https://www.facebook.com/tristan.crain.9">Facebook</a>
+          <a href="https://www.facebook.com/tristan.crain.9">GitHub</a>
+          <a href="https://www.facebook.com/tristan.crain.9">LinkedIn</a>
+        </article>
+
+        <article id="footer-rights">
+          <p>2022 Tristan Crain</p>
+          <p>All Rights Reserved</p>
+        </article>
       </nav>
     </header>
   );
