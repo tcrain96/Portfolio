@@ -1,41 +1,57 @@
 import React from "react";
+import "./index.css";
 
 const Nav = (props) => {
-  const { categories = [], setCurrentCategory, currentCategory } = props;
-
+  const { categories = [], setCurrentCategory } = props;
   return (
     <header>
-      <nav>
-        <article id="home-logo">
+      <nav className="nav">
+        <article
+          className="home-logo"
+          onClick={() => {
+            setCurrentCategory(categories[0]);
+          }}
+        >
           <h2>TC</h2>
         </article>
 
-        <article id="nav-categories">
+        <article className="nav-categories">
           {categories.map((category) => (
-            <div
-              className={`${
-                currentCategory.name === category.name && "navActive"
-              }`}
-              key={category.name}
+            <span
+              onClick={() => {
+                setCurrentCategory(category);
+              }}
             >
-              <span
-                onClick={() => {
-                  setCurrentCategory(category);
-                }}
-              >
-                {category.name}
-              </span>
-            </div>
+              {category.name}
+            </span>
           ))}
         </article>
 
-        <article id="social-links">
-          <a href="https://www.facebook.com/tristan.crain.9">Facebook</a>
-          <a href="https://www.facebook.com/tristan.crain.9">GitHub</a>
-          <a href="https://www.facebook.com/tristan.crain.9">LinkedIn</a>
+        <article className="social-links">
+          <a
+            href="https://www.facebook.com/tristan.crain.9"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Facebook
+          </a>
+          <a
+            href="https://github.com/tcrain96"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+          <a
+            href="https://www.linkedin.com/in/tristancrain/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LinkedIn
+          </a>
         </article>
 
-        <article id="footer-rights">
+        <article className="footer-rights">
           <p>2022 Tristan Crain</p>
           <p>All Rights Reserved</p>
         </article>

@@ -1,23 +1,39 @@
 import React from "react";
 import aboutPicture from "../../assets/about-picture.jpg";
+import "./index.css";
+const About = (props) => {
+  const { categories = [], setCurrentCategory } = props;
 
-const About = () => {
   return (
-    <section id="about-section">
-      <img src={aboutPicture} alt="Tristan" id="about-image" />
+    <section className="about">
+      <img src={aboutPicture} alt="Tristan" className="about-image" />
       <h2>Hi! My Name is Tristan.</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        I'm so happy you've taken the time to stop by my website. Here's a few
+        things worth knowing about me. I currently live in Ottawa Ontario, and
+        am in the middle of completing a Bootcamp program at Carleton University
+        in fullstack web development. I'm passionate about video games, love
+        people, and want to invest in creating tools that help those in need.
+        Web development has given me the opportunity to make a difference during
+        COVID, and it is my goal to continue doing this for you. Whether it's
+        communications, web development, or anything in-between, I would love to
+        connect.
       </p>
-      <div id="about-buttons">
-        <span>View Portfolio</span>
-        <span>Contact Me</span>
+      <div className="about-buttons">
+        <span
+          onClick={() => {
+            setCurrentCategory(categories[1]);
+          }}
+        >
+          View Portfolio
+        </span>
+        <span
+          onClick={() => {
+            setCurrentCategory(categories[2]);
+          }}
+        >
+          Contact Me
+        </span>
       </div>
     </section>
   );
