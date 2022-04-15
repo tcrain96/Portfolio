@@ -6,7 +6,7 @@
 
 ## Description
 
-a website displaying everything you need to know about me as a developer.
+A website displaying everything you need to know about me as a developer.
 
 ## Table of Contents
 
