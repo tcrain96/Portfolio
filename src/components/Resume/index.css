@@ -1,3 +1,4 @@
+/*Resume Styles*/
 .resume {
   display: flex;
   flex-wrap: wrap;
@@ -34,8 +35,8 @@
   padding: 20px;
 }
 
-.resume-info a:hover{
-    background-color: var(--accent-color);
+.resume-info a:hover {
+  background-color: var(--accent-color);
 }
 
 .resume-bars {
@@ -58,7 +59,6 @@
   width: 80%;
 }
 
-
 #b-e {
   width: 70%;
 }
@@ -67,9 +67,10 @@
   width: 50%;
 }
 
+/*Media Query*/
 @media screen and (max-width: 1200px) {
   .resume {
     margin-left: 0;
-    padding: 100px 50px;
+    padding: 100px 10px;
   }
 }

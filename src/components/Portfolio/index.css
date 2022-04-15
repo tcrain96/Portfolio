@@ -1,3 +1,4 @@
+/*Portfolio Styles*/
 .portfolio {
   display: flex;
   justify-content: center;
@@ -18,34 +19,34 @@
   flex: 0 45%;
 }
 
-.project-information{
+.project-information {
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
 }
 
-.project-information-title{
+.project-information-title {
   background-color: var(--background-color);
   padding: 20px;
   margin-bottom: 50px;
   border-radius: 10px;
 }
 
-.project-information-title h2{
+.project-information-title h2 {
   font-size: 30px;
 }
 
-.project-information-title p{
+.project-information-title p {
   font-size: 20px;
 }
 
-.project-buttons{
+.project-buttons {
   display: flex;
   flex-wrap: wrap;
 }
 
-.project-information a{
+.project-information a {
   text-decoration: none;
   color: var(--white-color);
   background-color: var(--light-blue-color);
@@ -53,12 +54,12 @@
   margin: 0px 10px;
 }
 
-.project-information a:hover{
+.project-information a:hover {
   background-color: var(--accent-color);
 }
 
+/*Media Queries*/
 @media screen and (max-width: 1500px) {
-
   .project {
     margin: 20px 0px;
     padding: 100px 0px;
@@ -69,7 +70,7 @@
 @media screen and (max-width: 1200px) {
   .portfolio {
     margin-left: 0;
-    padding: 100px 50px;
+    padding: 100px 10px;
   }
   .project {
     margin: 20px 0px;

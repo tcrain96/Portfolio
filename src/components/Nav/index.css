@@ -87,15 +87,19 @@
   background-color: var(--accent-color);
 }
 
+/*Media Queries*/
 @media screen and (max-width: 1200px) {
   .nav {
     position: relative;
-    flex-direction: row;
     height: auto;
+    align-items: center;
     width: 100%;
+    padding: 20px 0px;
   }
+
   .nav .social-links,
-  .nav .footer-rights{
+  .nav .footer-rights,
+  .nav .home-logo {
     display: none;
   }
 }

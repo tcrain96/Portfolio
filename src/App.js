@@ -1,3 +1,4 @@
+//Required Imports
 import React, { useState } from "react";
 import Nav from "./components/Nav";
 import Portfolio from "./components/Portfolio";
@@ -6,6 +7,7 @@ import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 
 function App() {
+  //categories state
   const [categories] = useState([
     {
       name: "About",
@@ -21,6 +23,7 @@ function App() {
     },
   ]);
 
+  //current category state
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   return (
