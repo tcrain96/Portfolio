@@ -1,10 +1,78 @@
-/*About Styles*/
+/*Contact Styles*/
 .contact {
-  top: 0;
   display: flex;
-  height: 100vh;
   flex-direction: column;
-  justify-content: center;
+  flex-wrap: wrap;
   margin-left: 15%;
-  padding: 0px 250px;
+  padding: 50px 350px;
+}
+
+.contact-section {
+  background-color: var(--background-color);
+  padding: 40px 30px 60px 30px;
+  border-radius: 30px;
+}
+.contact h1 {
+  text-align: center;
+  font-size: 40px;
+  color: var(--white-color);
+}
+
+#contact-form div {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+}
+
+#contact-form div label {
+  color: var(--white-color);
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+#contact-form div input {
+  height: 40px;
+}
+
+#contact-form div input,
+#contact-form div textarea {
+  text-decoration: none;
+  background-color: var(--white-color);
+  color: var(--main-background-color);
+  font-size: 20px;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.error-text {
+  color: var(--light-blue-color);
+  font-size: 25px;
+}
+
+#contact-form button {
+  text-decoration: none;
+  border: none;
+  font-size: 25px;
+  padding: 20px;
+  background-color: var(--light-blue-color);
+  color: var(--white-color);
+}
+
+#contact-form button:hover {
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1600px) {
+  .contact {
+    padding: 100px 150px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .contact {
+    margin-left: 0%;
+    padding: 100px 50px;
+  }
 }

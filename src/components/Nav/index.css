@@ -1,80 +1,94 @@
 /* Navigation Styles*/
 .nav {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    justify-content: space-between;
-    background-color: var(--background-color);
-    height: 100vh;
-    width: 15%;
-    top: 0;
-    left: 0;
-    overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  justify-content: space-between;
+  background-color: var(--background-color);
+  height: 100vh;
+  width: 15%;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+}
+
+.nav .home-logo {
+  align-self: flex-start;
+  margin: 15px;
+  padding: 0px 15px;
+  color: var(--white-color);
+  background-color: var(--light-blue-color);
+}
+
+.nav .home-logo:hover {
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.nav .home-logo h2 {
+  font-size: 20px;
+}
+
+.nav .nav-categories {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.nav .nav-categories span:hover {
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.nav .social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.nav .social-links a {
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 10px 20px;
+  width: 75px;
+  background-color: var(--light-blue-color);
+  color: var(--white-color);
+}
+
+.nav .social-links a:hover {
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.nav .footer-rights {
+  margin: 15px;
+  color: var(--white-color);
+}
+
+.nav .footer-rights p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.navInactive,
+.navActive {
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 10px 20px;
+  width: 150px;
+  color: var(--white-color);
+}
+
+.navInactive {
+  background-color: var(--light-blue-color);
+}
+
+.navActive {
+  background-color: var(--accent-color);
+}
+
+@media screen and (max-width: 1200px) {
+  .nav {
+    display: none;
   }
-  
-  .nav .home-logo {
-    align-self: flex-start;
-    margin: 15px;
-    padding: 0px 15px;
-    color: var(--white-color);
-    background-color: var(--light-blue-color);
-  }
-  
-  .nav .home-logo:hover {
-    background-color: var(--accent-color);
-    cursor: pointer;
-  }
-  
-  .nav .home-logo h2 {
-    font-size: 20px;
-  }
-  
-  .nav .nav-categories {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-  
-  .nav .nav-categories span {
-    font-size: 20px;
-    padding: 10px 20px;
-    margin: 10px 10px;
-    width: 150px;
-    color: var(--white-color);
-    background-color: var(--light-blue-color);
-  }
-  
-  .nav .nav-categories span:hover {
-    background-color: var(--accent-color);
-    cursor: pointer;
-  }
-  
-  .nav .social-links {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-  
-  .nav .social-links a {
-    text-decoration: none;
-    padding: 10px 20px;
-    margin: 10px 10px;
-    width: 75px;
-    background-color: var(--light-blue-color);
-    color: var(--white-color);
-  }
-  
-  .nav .social-links a:hover {
-    background-color: var(--accent-color);
-    cursor: pointer;
-  }
-  
-  .nav .footer-rights{
-      margin: 15px;
-      color: var(--white-color);
-  }
-  
-  .nav .footer-rights p{
-      font-size: 16px;
-      text-align: center;
-  }
+}

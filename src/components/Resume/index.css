@@ -1,0 +1,75 @@
+.resume {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 15%;
+  padding: 50px 100px;
+}
+.resume-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: var(--background-color);
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.resume-info h2 {
+  color: var(--white-color);
+  font-size: 50px;
+}
+
+.resume-info p {
+  color: var(--white-color);
+  line-height: 1.5;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+
+.resume-info a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  background-color: var(--light-blue-color);
+  padding: 20px;
+}
+
+.resume-info a:hover{
+    background-color: var(--accent-color);
+}
+
+.resume-bars {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+.resume-bars h2 {
+  background-color: var(--light-blue-color);
+  margin: 10px 0px;
+  padding: 20px;
+  color: var(--white-color);
+}
+
+#f-e {
+  width: 100%;
+}
+
+#cms {
+  width: 80%;
+}
+
+
+#b-e {
+  width: 70%;
+}
+
+#react {
+  width: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+  .resume {
+    margin-left: 0;
+    padding: 100px 50px;
+  }
+}

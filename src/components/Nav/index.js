@@ -2,7 +2,7 @@ import React from "react";
 import "./index.css";
 
 const Nav = (props) => {
-  const { categories = [], setCurrentCategory } = props;
+  const { categories = [], currentCategory, setCurrentCategory } = props;
   return (
     <header>
       <nav className="nav">
@@ -17,10 +17,11 @@ const Nav = (props) => {
 
         <article className="nav-categories">
           {categories.map((category) => (
-            <span
+            <span key={category.name} className={`${currentCategory.name === category.name ? 'navActive' : 'navInactive'}`}
               onClick={() => {
                 setCurrentCategory(category);
               }}
+              
             >
               {category.name}
             </span>

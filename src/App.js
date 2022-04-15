@@ -3,24 +3,21 @@ import Nav from "./components/Nav";
 import Portfolio from "./components/Portfolio";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Resume from "./components/Resume";
 
 function App() {
   const [categories] = useState([
     {
       name: "About",
-      isSelected: false,
     },
     {
       name: "Portfolio",
-      isSelected: false,
     },
     {
       name: "Contact",
-      isSelected: false,
     },
     {
       name: "Resume",
-      isSelected: false,
     },
   ]);
 
@@ -30,6 +27,7 @@ function App() {
     <div id="main-container">
       <Nav
         categories={categories}
+        currentCategory={currentCategory}
         setCurrentCategory={setCurrentCategory}
       ></Nav>
       <main>
@@ -47,7 +45,7 @@ function App() {
             case "Contact":
               return <Contact />;
             case "Resume":
-              return <About />;
+              return <Resume />;
             default:
               return null;
           }
