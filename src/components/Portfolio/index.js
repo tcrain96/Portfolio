@@ -2,14 +2,23 @@ import React, { useState } from "react";
 import socialNetworkAPI_BI from "../../assets/social-network-api-BI.jpg";
 import devDen_BI from "../../assets/dev-den-BI.jpg";
 import techBlog_BI from "../../assets/tech-blog-BI.JPG";
-import eCommerceBackend_BI from "../../assets/e-commerce-backend-BI.jpg"
+import eCommerceBackend_BI from "../../assets/e-commerce-backend-BI.jpg";
 import grumble_BI from "../../assets/grumble-BI.JPG";
 import weatherDashboard_BI from "../../assets/weather-dashboard-BI.JPG";
+import puppypals_BI from "../../assets/puppy-pals-BI.png";
 
 import "./index.css";
 
 const Portfolio = () => {
   const projects = [
+    {
+      name: "Puppy Pals",
+      img: puppypals_BI,
+      imgVisible: useState(""),
+      tools: "MERN, CRUD, and GraphQL",
+      github: "https://github.com/tcrain96/puppy-pals.git",
+      live: "https://secret-wave-15464.herokuapp.com/",
+    },
     {
       name: "Social Network API",
       img: socialNetworkAPI_BI,
