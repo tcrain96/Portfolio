@@ -34,7 +34,9 @@
   letter-spacing: 1.5px;
 }
 
-.about span {
+.about span,
+.about a {
+  text-decoration: none;
   background-color: var(--light-blue-color);
   color: var(--white-color);
   font-size: 20px;
@@ -42,7 +44,8 @@
   padding: 20px;
 }
 
-.about span:hover {
+.about span:hover,
+.about a:hover {
   background-color: var(--accent-color);
   cursor: pointer;
 }

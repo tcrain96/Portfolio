@@ -50,6 +50,13 @@ const Nav = (props) => {
           >
             LinkedIn
           </a>
+          <a
+            href="mailto:tristan.crain@outlook.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Contact
+          </a>
         </article>
 
         <article className="footer-rights">

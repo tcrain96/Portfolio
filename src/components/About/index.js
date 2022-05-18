@@ -10,15 +10,10 @@ const About = (props) => {
       <div className="about-information">
         <h2>Hi! My Name is Tristan.</h2>
         <p>
-          I'm so happy you've taken the time to stop by my website. Here's a few
-          things worth knowing about me. I currently live in Ottawa Ontario, and
-          am in the middle of completing a Bootcamp program at Carleton
-          University in fullstack web development. I'm passionate about video
-          games, love people, and want to invest in creating tools that help
-          those in need. Web development has given me the opportunity to make a
-          difference during COVID, and it is my goal to continue doing this for
-          you. Whether it's communications, web development, or anything
-          in-between, I would love to connect.
+        I'm a Front-End Web Developer leveraging a Game Development background to build fun, intuitive and
+        innovative user experiences on the web. I earned a certificate in Full-Stack Web Development from Carleton University.
+        I'm an innovative problem-solver who is passionate about developing apps with a focus on mobile-first design and development. My strengths are in
+        creativity, teamwork, and building projects from ideation to execution.
         </p>
         <div className="about-buttons">
           <span
@@ -28,13 +23,11 @@ const About = (props) => {
           >
             View Portfolio
           </span>
-          <span
-            onClick={() => {
-              setCurrentCategory(categories[2]);
-            }}
-          >
+          <a href="mailto:tristan.crain@outlook.com"
+            target="_blank"
+            rel="noreferrer">
             Contact Me
-          </span>
+          </a>
         </div>
       </div>
     </section>
