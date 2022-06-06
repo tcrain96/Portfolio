@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.67431fb2.css",
-    "main.js": "/react-portfolio/static/js/main.244d26de.js",
-    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/grumble-BI.JPG": "/react-portfolio/static/media/grumble-BI.79a1d5beb3d451283ee1.JPG",
-    "static/media/about-picture.jpg": "/react-portfolio/static/media/about-picture.5a576bd5cb7aa39f9ed3.jpg",
-    "static/media/social-network-api-BI.jpg": "/react-portfolio/static/media/social-network-api-BI.4fc90cab3f626c3b2edc.jpg",
-    "static/media/e-commerce-backend-BI.jpg": "/react-portfolio/static/media/e-commerce-backend-BI.f23872d5ce4ac7620b04.jpg",
-    "static/media/puppy-pals-BI.png": "/react-portfolio/static/media/puppy-pals-BI.d6a5fff4229085179afd.png",
-    "static/media/dev-den-BI.jpg": "/react-portfolio/static/media/dev-den-BI.451af7c967adad43759a.jpg",
-    "static/media/weather-dashboard-BI.JPG": "/react-portfolio/static/media/weather-dashboard-BI.8a4580d8a727b733b07d.JPG",
-    "static/media/resume.pdf": "/react-portfolio/static/media/resume.e39c91ee175967b8a167.pdf",
-    "static/media/tech-blog-BI.JPG": "/react-portfolio/static/media/tech-blog-BI.9f1a762ee99708879620.JPG",
-    "index.html": "/react-portfolio/index.html",
-    "main.67431fb2.css.map": "/react-portfolio/static/css/main.67431fb2.css.map",
-    "main.244d26de.js.map": "/react-portfolio/static/js/main.244d26de.js.map",
-    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.67431fb2.css",
+    "main.js": "/Portfolio/static/js/main.9983788b.js",
+    "static/js/787.a2cb61a6.chunk.js": "/Portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/grumble-BI.JPG": "/Portfolio/static/media/grumble-BI.79a1d5beb3d451283ee1.JPG",
+    "static/media/about-picture.jpg": "/Portfolio/static/media/about-picture.5a576bd5cb7aa39f9ed3.jpg",
+    "static/media/social-network-api-BI.jpg": "/Portfolio/static/media/social-network-api-BI.4fc90cab3f626c3b2edc.jpg",
+    "static/media/e-commerce-backend-BI.jpg": "/Portfolio/static/media/e-commerce-backend-BI.f23872d5ce4ac7620b04.jpg",
+    "static/media/puppy-pals-BI.png": "/Portfolio/static/media/puppy-pals-BI.d6a5fff4229085179afd.png",
+    "static/media/dev-den-BI.jpg": "/Portfolio/static/media/dev-den-BI.451af7c967adad43759a.jpg",
+    "static/media/weather-dashboard-BI.JPG": "/Portfolio/static/media/weather-dashboard-BI.8a4580d8a727b733b07d.JPG",
+    "static/media/resume.pdf": "/Portfolio/static/media/resume.e39c91ee175967b8a167.pdf",
+    "static/media/tech-blog-BI.JPG": "/Portfolio/static/media/tech-blog-BI.9f1a762ee99708879620.JPG",
+    "index.html": "/Portfolio/index.html",
+    "main.67431fb2.css.map": "/Portfolio/static/css/main.67431fb2.css.map",
+    "main.9983788b.js.map": "/Portfolio/static/js/main.9983788b.js.map",
+    "787.a2cb61a6.chunk.js.map": "/Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.67431fb2.css",
-    "static/js/main.244d26de.js"
+    "static/js/main.9983788b.js"
   ]
 }
