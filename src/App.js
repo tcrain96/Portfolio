@@ -16,7 +16,7 @@ function App() {
       name: "Portfolio",
     },
     {
-      name: "Resume",
+      name: "Skills & Resume",
     },
   ]);
 
@@ -44,7 +44,7 @@ function App() {
               return <Portfolio />;
             case "Contact":
               return <Contact />;
-            case "Resume":
+            case "Skills & Resume":
               return <Resume />;
             default:
               return null;
