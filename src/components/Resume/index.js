@@ -5,6 +5,7 @@ import resume from "../../assets/resume.pdf";
 const Resume = () => {
   return (
     <section className="resume">
+
       <div className="resume-info">
         <h2>Resume</h2>
         <p>
@@ -17,12 +18,53 @@ const Resume = () => {
           Download Resume
         </a>
       </div>
-      <div className="resume-bars">
-        <h2 id="f-e">Front-End</h2>
-        <h2 id="react">ReactJS</h2>
-        <h2 id="b-e">Back-End</h2>
-        <h2 id="cms">CMS</h2>
+
+      <div className="resume-info">
+        <h2>Front-End Skills</h2>
+        <div class="skills-lists">
+        <div class="left-list">
+          <p>JavaScript ES6+</p>
+          <p>CSS3</p>
+          <p>HTML5</p>
+          <p>Python</p>
+          <p>React</p>
+          <p>Handlebars</p>
+          <p>JQuery</p>
+          <p>Bootstrap</p>
+        </div>
+        <div class="right-list">
+          <p>NodeJS</p>
+          <p>Heroku</p>
+          <p>Wordpress</p>
+          <p>Visual Studio Code</p>
+          <p>Squarespace</p>
+          <p>GitHub</p>
+          <p>Git</p>
+          <p>npm</p>
+        </div>
+        </div>
       </div>
+
+      <div className="resume-info">
+        <h2>Back-End Skills</h2>
+        <div class="skills-lists">
+        <div class="left-list">
+          <p>SQL</p>
+          <p>MongoDB</p>
+          <p>Sequelize</p>
+          <p>Mongo Atlas</p>
+          <p>BCrypt</p>
+        </div>
+        <div class="right-list">
+          <p>NoSQL</p>
+          <p>Express</p>
+          <p>GraphQL</p>
+          <p>AWS</p>
+          <p>Mongoose</p>
+        </div>
+        </div>
+      </div>
+
     </section>
   );
 };
