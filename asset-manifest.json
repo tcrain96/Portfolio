@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.db271efd.css",
-    "main.js": "/react-portfolio/static/js/main.a042a055.js",
+    "main.css": "/react-portfolio/static/css/main.67431fb2.css",
+    "main.js": "/react-portfolio/static/js/main.244d26de.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/grumble-BI.JPG": "/react-portfolio/static/media/grumble-BI.79a1d5beb3d451283ee1.JPG",
     "static/media/about-picture.jpg": "/react-portfolio/static/media/about-picture.5a576bd5cb7aa39f9ed3.jpg",
@@ -13,12 +13,12 @@
     "static/media/resume.pdf": "/react-portfolio/static/media/resume.e39c91ee175967b8a167.pdf",
     "static/media/tech-blog-BI.JPG": "/react-portfolio/static/media/tech-blog-BI.9f1a762ee99708879620.JPG",
     "index.html": "/react-portfolio/index.html",
-    "main.db271efd.css.map": "/react-portfolio/static/css/main.db271efd.css.map",
-    "main.a042a055.js.map": "/react-portfolio/static/js/main.a042a055.js.map",
+    "main.67431fb2.css.map": "/react-portfolio/static/css/main.67431fb2.css.map",
+    "main.244d26de.js.map": "/react-portfolio/static/js/main.244d26de.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db271efd.css",
-    "static/js/main.a042a055.js"
+    "static/css/main.67431fb2.css",
+    "static/js/main.244d26de.js"
   ]
 }
