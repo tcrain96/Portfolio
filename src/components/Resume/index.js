@@ -28,7 +28,6 @@ const Resume = () => {
           <p>HTML5</p>
           <p>Python</p>
           <p>React</p>
-          <p>Handlebars</p>
           <p>JQuery</p>
           <p>Bootstrap</p>
         </div>
@@ -40,7 +39,6 @@ const Resume = () => {
           <p>Squarespace</p>
           <p>GitHub</p>
           <p>Git</p>
-          <p>npm</p>
         </div>
         </div>
       </div>
@@ -52,15 +50,15 @@ const Resume = () => {
           <p>SQL</p>
           <p>MongoDB</p>
           <p>Sequelize</p>
-          <p>Mongo Atlas</p>
           <p>BCrypt</p>
+          <p>Handlebars</p>
         </div>
         <div class="right-list">
           <p>NoSQL</p>
           <p>Express</p>
           <p>GraphQL</p>
-          <p>AWS</p>
           <p>Mongoose</p>
+          <p>NodeJS</p>
         </div>
         </div>
       </div>
