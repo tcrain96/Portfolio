@@ -26,13 +26,11 @@ const Resume = () => {
           <p>JavaScript ES6+</p>
           <p>CSS3</p>
           <p>HTML5</p>
-          <p>Python</p>
           <p>React</p>
           <p>JQuery</p>
           <p>Bootstrap</p>
         </div>
         <div class="right-list">
-          <p>NodeJS</p>
           <p>Heroku</p>
           <p>Wordpress</p>
           <p>Visual Studio Code</p>
@@ -52,6 +50,7 @@ const Resume = () => {
           <p>Sequelize</p>
           <p>BCrypt</p>
           <p>Handlebars</p>
+          <p>Python</p>
         </div>
         <div class="right-list">
           <p>NoSQL</p>
@@ -59,6 +58,7 @@ const Resume = () => {
           <p>GraphQL</p>
           <p>Mongoose</p>
           <p>NodeJS</p>
+          <p>JavaScript ES6+</p>
         </div>
         </div>
       </div>
