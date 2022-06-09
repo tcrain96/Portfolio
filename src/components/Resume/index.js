@@ -58,7 +58,7 @@ const Resume = () => {
           <p>GraphQL</p>
           <p>Mongoose</p>
           <p>NodeJS</p>
-          <p>JavaScript ES6+</p>
+          <p>C#</p>
         </div>
         </div>
       </div>
